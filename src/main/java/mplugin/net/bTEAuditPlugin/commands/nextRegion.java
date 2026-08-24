@@ -64,13 +64,6 @@ public class nextRegion implements CommandExecutor {
         }
         player.sendMessage("§3Next Region: " + regionData.getName());
 
-        if (regionData.getStatus().equals("quickDelete")) {
-            player.sendMessage("§4This region has been automatically marked probably safe for deletion, use /deleteRegion {yes/no} to delete this region.");
-            player.sendMessage("§4Yes will delete the region, No will send it to the Unchecked queue!");
-            player.sendMessage("§4Be carful!");
-        }
-
-
         World auditWorld = Bukkit.getWorld("audit_world_" + player.getName());
         //Teleport players out of audit_world
         if (auditWorld != null) {
