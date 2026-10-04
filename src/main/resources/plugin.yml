@@ -1,6 +1,6 @@
 name: BTEAuditPlugin
 version: '1.0'
-main: mplugin.net.bTEAuditPlugin.BTEAuditPlugin
+main: org.btuk.bTEAuditPlugin.BTEAuditPlugin
 api-version: '1.21'
 authors: [ Dillsteamgamer ]
 

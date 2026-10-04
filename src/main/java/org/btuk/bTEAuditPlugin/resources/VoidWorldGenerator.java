@@ -1,4 +1,4 @@
-package mplugin.net.bTEAuditPlugin.resources;
+package org.btuk.bTEAuditPlugin.resources;
 
 import org.bukkit.World;
 import org.bukkit.generator.ChunkGenerator;

@@ -1,4 +1,4 @@
-package mplugin.net.bTEAuditPlugin.commands;
+package org.btuk.bTEAuditPlugin.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.World;

@@ -1,4 +1,4 @@
-package mplugin.net.bTEAuditPlugin.resources;
+package org.btuk.bTEAuditPlugin.resources;
 
 public class RegionData {
     private final String name;

@@ -1,8 +1,8 @@
-package mplugin.net.bTEAuditPlugin.commands;
+package org.btuk.bTEAuditPlugin.commands;
 
-import mplugin.net.bTEAuditPlugin.resources.BlockPoint;
-import mplugin.net.bTEAuditPlugin.resources.DatabaseManager;
-import mplugin.net.bTEAuditPlugin.resources.RegionData;
+import org.btuk.bTEAuditPlugin.resources.BlockPoint;
+import org.btuk.bTEAuditPlugin.resources.DatabaseManager;
+import org.btuk.bTEAuditPlugin.resources.RegionData;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;

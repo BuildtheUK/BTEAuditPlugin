@@ -1,8 +1,8 @@
-package mplugin.net.bTEAuditPlugin.commands;
+package org.btuk.bTEAuditPlugin.commands;
 
-import mplugin.net.bTEAuditPlugin.resources.DatabaseManager;
-import mplugin.net.bTEAuditPlugin.resources.RegionData;
-import mplugin.net.bTEAuditPlugin.resources.VoidWorldGenerator;
+import org.btuk.bTEAuditPlugin.resources.DatabaseManager;
+import org.btuk.bTEAuditPlugin.resources.RegionData;
+import org.btuk.bTEAuditPlugin.resources.VoidWorldGenerator;
 import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

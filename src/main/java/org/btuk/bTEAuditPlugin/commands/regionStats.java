@@ -1,6 +1,6 @@
-package mplugin.net.bTEAuditPlugin.commands;
+package org.btuk.bTEAuditPlugin.commands;
 
-import mplugin.net.bTEAuditPlugin.resources.DatabaseManager;
+import org.btuk.bTEAuditPlugin.resources.DatabaseManager;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

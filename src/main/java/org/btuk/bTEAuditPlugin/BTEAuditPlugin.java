@@ -1,7 +1,9 @@
-package mplugin.net.bTEAuditPlugin;
+package org.btuk.bTEAuditPlugin;
 
-import mplugin.net.bTEAuditPlugin.commands.*;
-import mplugin.net.bTEAuditPlugin.resources.*;
+import org.btuk.bTEAuditPlugin.commands.*;
+import org.btuk.bTEAuditPlugin.resources.BlockPoint;
+import org.btuk.bTEAuditPlugin.resources.DatabaseManager;
+import org.btuk.bTEAuditPlugin.resources.ReloadDatabase;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -29,6 +31,8 @@ public final class BTEAuditPlugin extends JavaPlugin {
         BlockPoint returnPoint = new BlockPoint(getConfig().getInt("Mark-For-Deletion-TP-X"), getConfig().getInt("Mark-For-Deletion-TP-Y"), getConfig().getInt("Mark-For-Deletion-TP-Z"));
         String markAsHavingProgressMessage = getConfig().getString("Mark-Progress-Message");
 
+        //Reload the database
+        ReloadDatabase.reloadDatabase(this, database, database.getConnection(), null);
 
         //Command Set-Up
         //Tester Commands
